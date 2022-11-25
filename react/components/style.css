@@ -1,0 +1,24 @@
+.container {
+  padding: 10px;
+}
+
+.container__item {
+  padding: 1rem;
+  text-align: center;
+}
+.container__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button__checkout,
+.button__cart {
+  text-align : center;
+  padding: 15px;
+  width : 100%;
+  color: white;
+  background-color: #eb5b25;
+  text-decoration : none !important;
+  margin-top : 1rem;
+}
+
